@@ -1,0 +1,51 @@
+//
+// Responsive: Large desktop and up
+// --------------------------------------------------
+
+
+@media (min-width: 1200px) {
+
+  // Fixed grid
+  @include grid-core($gridColumnWidth1200, $gridGutterWidth1200);
+
+  // Fluid grid
+  @include grid-fluid($fluidGridColumnWidth1200, $fluidGridGutterWidth1200);
+
+  // Input grid
+  @include grid-input($gridColumnWidth1200, $gridGutterWidth1200);
+
+  // Thumbnails
+  .thumbnails {
+    margin-left: -$gridGutterWidth1200;
+  }
+  .thumbnails > li {
+    margin-left: -$gridGutterWidth1200;
+  }
+  .row-fluid .thumbnails {
+    margin-left: 0;
+  }
+
+  .navbar {
+    .logo {
+      top: -7px !important;
+      left: -18px !important;
+      width: 216px !important;
+    }
+  }
+
+  #note-to-play {
+    top: 30px;
+    left: 5px;
+  }
+
+  #demoShelf1 {
+    top: 52px;
+    left: -4px;
+  }
+
+  #demoShelf2 {
+    top: 165px;
+    left: -4px;
+  }
+
+}

@@ -1,0 +1,36 @@
+# currentRoute change (undefined, #undefined)
+# / (undefined, #undefined)
+# TypeError: 'undefined' is not a function (undefined, #undefined)
+# simpleCart has loaded 0 items from from localStorage (undefined, #undefined)
+# Error: Unknown provider: aProvider <- a (undefined, #undefined)
+CACHE MANIFEST
+
+# Time: Sun Dec 09 2012 22:03:52 GMT-0800 (PST)
+# This manifest was created by confess.js, http://github.com/jamesgpearce/confess
+#
+# Retrieved URL: http://localhost:3501/
+# User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#
+# Config:
+#  task: appcache
+#  userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#  wait: 0
+#  consolePrefix: #
+#  verbose: true
+#  appcache:
+#   urlsFromDocument: true
+#   urlsFromRequests: false
+#   cacheFilter: .*
+#   networkFilter: null
+#  url: http://localhost:3501
+#  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
+
+CACHE:
+/images/16828175.logo-black.png
+/images/38f9bfd9.album-cover.jpg
+/images/b895331e.logo-big.png
+scripts/2643e981.scripts.js
+styles/051c0509.main.css
+
+NETWORK:
+*
